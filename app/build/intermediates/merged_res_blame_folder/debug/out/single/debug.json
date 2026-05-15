@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.scrolltracker.app-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "com.example.scrolltracker.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-merged_res-37:/xml_accessibility_service_config.xml.flat",
+        "source": "com.example.scrolltracker.app-main-39:/xml/accessibility_service_config.xml"
+    }
+]

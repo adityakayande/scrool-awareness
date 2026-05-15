@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.example.scrolltracker.app-debug-38:/drawable_bg_status_pill.xml.flat",
+        "source": "com.example.scrolltracker.app-main-40:/drawable/bg_status_pill.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-debug-38:/layout_activity_settings.xml.flat",
+        "source": "com.example.scrolltracker.app-main-40:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-debug-38:/layout_activity_reality_check.xml.flat",
+        "source": "com.example.scrolltracker.app-main-40:/layout/activity_reality_check.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-debug-38:/layout_activity_main.xml.flat",
+        "source": "com.example.scrolltracker.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-debug-38:/drawable_bg_card.xml.flat",
+        "source": "com.example.scrolltracker.app-main-40:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-debug-38:/xml_accessibility_service_config.xml.flat",
+        "source": "com.example.scrolltracker.app-main-40:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-debug-38:/layout_item_history.xml.flat",
+        "source": "com.example.scrolltracker.app-main-40:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-debug-38:/raw_sound3.mp3.flat",
+        "source": "com.example.scrolltracker.app-main-40:/raw/sound3.mp3"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-debug-38:/raw_sound1.mp3.flat",
+        "source": "com.example.scrolltracker.app-main-40:/raw/sound1.mp3"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-debug-38:/layout_item_goal.xml.flat",
+        "source": "com.example.scrolltracker.app-main-40:/layout/item_goal.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-debug-38:/layout_activity_goals.xml.flat",
+        "source": "com.example.scrolltracker.app-main-40:/layout/activity_goals.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-debug-38:/raw_sound2.mp3.flat",
+        "source": "com.example.scrolltracker.app-main-40:/raw/sound2.mp3"
+    }
+]

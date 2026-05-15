@@ -1,0 +1,208 @@
+C:\Users\Lenovo\Downloads\Scrool counter\app\build.gradle.kts:13: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 34
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\Lenovo\Downloads\Scrool counter\app\build.gradle.kts:37: Warning: A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.18.0 [GradleDependency]
+    implementation("androidx.core:core-ktx:1.12.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\build.gradle.kts:38: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
+    implementation("androidx.appcompat:appcompat:1.6.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\build.gradle.kts:39: Warning: A newer version of com.google.android.material:material than 1.10.0 is available: 1.13.0 [GradleDependency]
+    implementation("com.google.android.material:material:1.10.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\build.gradle.kts:40: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\build.gradle.kts:41: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.6.2 is available: 2.10.0 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\build.gradle.kts:42: Warning: A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.6.2 is available: 2.10.0 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\build.gradle.kts:43: Warning: A newer version of androidx.activity:activity-ktx than 1.8.0 is available: 1.13.0 [GradleDependency]
+    implementation("androidx.activity:activity-ktx:1.8.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\build.gradle.kts:45: Warning: A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0 [GradleDependency]
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\item_history.xml:8: Warning: Possible overdraw: Root element paints background #1E1E1E with a theme that also paints a background (inferred theme is @style/Theme.ScrollTracker) [Overdraw]
+    android:background="#1E1E1E"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:9: Warning: Should explicitly set android:icon, there is no default [MissingApplicationIcon]
+    <application
+     ~~~~~~~~~~~
+
+   Explanation for issues of type "MissingApplicationIcon":
+   You should set an icon for the application as whole because there is no
+   default. This attribute must be set as a reference to a drawable resource
+   containing the image (for example @drawable/icon).
+
+   https://developer.android.com/studio/publish/preparing#publishing-configure
+
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\java\com\example\scrolltracker\ui\MainActivity.kt:66: Warning: Prefer "SHOW_AS_ACTION_IF_ROOM" instead of "SHOW_AS_ACTION_ALWAYS" [AlwaysShowAction]
+        menu?.add(0, 1, 0, "Settings")?.setIcon(android.R.drawable.ic_menu_preferences)?.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS)
+                                                                                                                  ~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AlwaysShowAction":
+   Using showAsAction="always" in menu XML, or MenuItem.SHOW_AS_ACTION_ALWAYS
+   in Java code is usually a deviation from the user interface style guide.Use
+   ifRoom or the corresponding MenuItem.SHOW_AS_ACTION_IF_ROOM instead.
+
+   If always is used sparingly there are usually no problems and behavior is
+   roughly equivalent to ifRoom but with preference over other ifRoom items.
+   Using it more than twice in the same menu is a bad idea.
+
+   This check looks for menu XML files that contain more than two always
+   actions, or some always actions and no ifRoom actions. In Java code, it
+   looks for projects that contain references to
+   MenuItem.SHOW_AS_ACTION_ALWAYS and no references to
+   MenuItem.SHOW_AS_ACTION_IF_ROOM.
+
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\java\com\example\scrolltracker\ui\HistoryAdapter.kt:28: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        holder.tvCount.text = "${record.count} Scrolls"
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\java\com\example\scrolltracker\ui\HistoryAdapter.kt:28: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        holder.tvCount.text = "${record.count} Scrolls"
+                                              ~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\java\com\example\scrolltracker\ui\MainActivity.kt:50: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                binding.tvServiceStatus.text = "Status: ON"
+                                                ~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\java\com\example\scrolltracker\ui\MainActivity.kt:52: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                binding.btnEnableService.text = "Service is Active"
+                                                 ~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\java\com\example\scrolltracker\ui\MainActivity.kt:54: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                binding.tvServiceStatus.text = "Status: OFF"
+                                                ~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\java\com\example\scrolltracker\ui\MainActivity.kt:56: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                binding.btnEnableService.text = "Enable Accessibility Service"
+                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\java\com\example\scrolltracker\ui\SettingsActivity.kt:57: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        button.text = "Set $prefix ($formattedTime)"
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\java\com\example\scrolltracker\ui\SettingsActivity.kt:57: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        button.text = "Set $prefix ($formattedTime)"
+                       ~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_main.xml:39: Warning: Hardcoded string "Today's Scrolls", should use @string resource [HardcodedText]
+                android:text="Today's Scrolls"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_main.xml:48: Warning: Hardcoded string "0", should use @string resource [HardcodedText]
+                android:text="0"
+                ~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_main.xml:59: Warning: Hardcoded string "Session started at --:--", should use @string resource [HardcodedText]
+                android:text="Session started at --:--"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_main.xml:69: Warning: Hardcoded string "Status: OFF", should use @string resource [HardcodedText]
+                android:text="Status: OFF"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_main.xml:77: Warning: Hardcoded string "Enable Accessibility Service", should use @string resource [HardcodedText]
+                android:text="Enable Accessibility Service" />
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_main.xml:88: Warning: Hardcoded string "Past 30 Days", should use @string resource [HardcodedText]
+                android:text="Past 30 Days"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_settings.xml:11: Warning: Hardcoded string "Tracking Settings", should use @string resource [HardcodedText]
+        android:text="Tracking Settings"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_settings.xml:19: Warning: Hardcoded string "Daily Reset / Start Time", should use @string resource [HardcodedText]
+        android:text="Daily Reset / Start Time"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_settings.xml:26: Warning: Hardcoded string "The time your daily scroll count resets.", should use @string resource [HardcodedText]
+        android:text="The time your daily scroll count resets."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_settings.xml:35: Warning: Hardcoded string "Set Start Time (05:00)", should use @string resource [HardcodedText]
+        android:text="Set Start Time (05:00)"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_settings.xml:41: Warning: Hardcoded string "Tracking End Time", should use @string resource [HardcodedText]
+        android:text="Tracking End Time"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_settings.xml:48: Warning: Hardcoded string "The time your tracking stops for the day.", should use @string resource [HardcodedText]
+        android:text="The time your tracking stops for the day."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\activity_settings.xml:57: Warning: Hardcoded string "Set End Time (01:00)", should use @string resource [HardcodedText]
+        android:text="Set End Time (01:00)" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\item_history.xml:16: Warning: Hardcoded string "Jan 01, 2024", should use @string resource [HardcodedText]
+        android:text="Jan 01, 2024"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res\layout\item_history.xml:24: Warning: Hardcoded string "120 Reels", should use @string resource [HardcodedText]
+        android:text="120 Reels"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 35 warnings

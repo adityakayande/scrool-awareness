@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base dark minimal theme -->
+    <style name="Theme.ScrollTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Background — deep charcoal, not pure black -->
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="colorSurface">@color/bg_secondary</item>
+        <item name="android:colorBackground">@color/bg_primary</item>
+
+        <!-- Danger color as primary to alert the user -->
+        <item name="colorPrimary">@color/color_danger</item>
+        <item name="colorPrimaryVariant">@color/color_danger</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+
+        <item name="colorSecondary">@color/color_danger</item>
+        <item name="colorSecondaryVariant">@color/color_danger</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+
+        <!-- Text -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/bg_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Elevated surfaces (cards, bottom sheets) -->
+        <item name="elevationOverlayEnabled">true</item>
+
+        <!-- Button -->
+        <item name="materialButtonStyle">@style/Widget.ScrollTracker.Button</item>
+    </style>
+
+    <style name="Widget.ScrollTracker.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="backgroundTint">@color/bg_secondary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <!-- Toolbar overlay that respects the dark bg -->
+    <style name="Theme.ScrollTracker.Toolbar" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:background">@color/bg_primary</item>
+    </style>
+</resources>

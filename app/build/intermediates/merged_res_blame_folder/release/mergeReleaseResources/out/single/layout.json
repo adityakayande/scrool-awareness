@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.scrolltracker.app-mergeReleaseResources-37:/layout/item_history.xml",
+        "source": "com.example.scrolltracker.app-main-39:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-mergeReleaseResources-37:/layout/activity_main.xml",
+        "source": "com.example.scrolltracker.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-mergeReleaseResources-37:/layout/activity_settings.xml",
+        "source": "com.example.scrolltracker.app-main-39:/layout/activity_settings.xml"
+    }
+]

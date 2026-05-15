@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_desc">This app uses Accessibility Service to detect scrolling behavior for digital wellbeing purposes.</string>
+    <string name="accessibility_service_name">Instagram Scroll Tracker</string>
+    <string name="app_name">Scroll Awareness</string>
+    <style name="Theme.ScrollTracker" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#03DAC5</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">#000000</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+id btnEnableService
+id tvScrollCount
+id tvScrollCountTitle
+id tvServiceStatus
+id tvTitle
+layout activity_main
+string accessibility_service_desc
+string accessibility_service_name
+string app_name
+style Theme.ScrollTracker
+xml accessibility_service_config

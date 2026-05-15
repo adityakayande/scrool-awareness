@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="bg_primary">#0A0A0A</color>       <!-- Almost black -->
+    <color name="bg_secondary">#1A1A1A</color>      <!-- Card/surface background -->
+    <color name="bg_tertiary">#242424</color>       <!-- Slightly elevated surface -->
+
+    <!-- Status Colors -->
+    <color name="color_safe">#22C55E</color>
+    <color name="color_warning">#EAB308</color>
+    <color name="color_rising_danger">#F97316</color>
+    <color name="color_danger">#EF4444</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>      <!-- Stark white -->
+    <color name="text_secondary">#888888</color>    <!-- Muted grey -->
+    <color name="text_hint">#444444</color>         <!-- Very subtle hint text -->
+
+    <!-- Divider -->
+    <color name="divider">#222222</color>
+</resources>

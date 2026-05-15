@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Scroll Awareness</string>
+    <string name="accessibility_service_name">Instagram Scroll Tracker</string>
+    <string name="accessibility_service_desc">This app uses Accessibility Service to detect scrolling behavior for digital wellbeing purposes.</string>
+</resources>

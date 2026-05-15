@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.scrolltracker.app-mergeDebugResources-37:/layout/activity_reality_check.xml",
+        "source": "com.example.scrolltracker.app-main-40:/layout/activity_reality_check.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-mergeDebugResources-37:/layout/activity_goals.xml",
+        "source": "com.example.scrolltracker.app-main-40:/layout/activity_goals.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-mergeDebugResources-37:/layout/item_history.xml",
+        "source": "com.example.scrolltracker.app-main-40:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-mergeDebugResources-37:/layout/activity_settings.xml",
+        "source": "com.example.scrolltracker.app-main-40:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-mergeDebugResources-37:/layout/activity_main.xml",
+        "source": "com.example.scrolltracker.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.scrolltracker.app-mergeDebugResources-37:/layout/item_goal.xml",
+        "source": "com.example.scrolltracker.app-main-40:/layout/item_goal.xml"
+    }
+]

@@ -1,0 +1,193 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.scrolltracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:5:5-77
+11-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:5:22-74
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+12-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:6:5-89
+12-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:6:22-86
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:7:5-77
+13-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+14-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:8:5-95
+14-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:8:22-92
+15
+16    <permission
+16-->[androidx.core:core:1.12.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ce4ea5e2a90bba2691f13aaca50c3cc4\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.scrolltracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.12.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ce4ea5e2a90bba2691f13aaca50c3cc4\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.12.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ce4ea5e2a90bba2691f13aaca50c3cc4\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.scrolltracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.12.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ce4ea5e2a90bba2691f13aaca50c3cc4\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.12.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ce4ea5e2a90bba2691f13aaca50c3cc4\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:10:5-57:19
+23        android:allowBackup="true"
+23-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.12.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ce4ea5e2a90bba2691f13aaca50c3cc4\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:label="@string/app_name"
+27-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:12:9-41
+28        android:supportsRtl="true"
+28-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:13:9-35
+29        android:theme="@style/Theme.ScrollTracker" >
+29-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:14:9-51
+30        <activity
+30-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:16:9-23:20
+31            android:name="com.example.scrolltracker.ui.RealityCheckActivity"
+31-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:17:13-52
+32            android:exported="true" >
+32-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:18:13-36
+33            <intent-filter>
+33-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:19:13-22:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:20:17-69
+34-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:20:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:21:17-77
+36-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:21:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:25:9-28:20
+40            android:name="com.example.scrolltracker.ui.MainActivity"
+40-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:26:13-44
+41            android:exported="false" >
+41-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:27:13-37
+42        </activity>
+43        <activity
+43-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:30:9-33:40
+44            android:name="com.example.scrolltracker.ui.SettingsActivity"
+44-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:31:13-48
+45            android:exported="false"
+45-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:32:13-37
+46            android:label="Settings" />
+46-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:33:13-37
+47        <activity
+47-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:35:9-38:40
+48            android:name="com.example.scrolltracker.ui.GoalsActivity"
+48-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:36:13-45
+49            android:exported="false"
+49-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:37:13-37
+50            android:label="My Goals" />
+50-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:38:13-37
+51
+52        <service
+52-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:40:9-56:19
+53            android:name="com.example.scrolltracker.service.ScrollAccessibilityService"
+53-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:41:13-63
+54            android:exported="true"
+54-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:42:13-36
+55            android:foregroundServiceType="specialUse"
+55-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:43:13-55
+56            android:label="@string/accessibility_service_name"
+56-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:44:13-63
+57            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+57-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:46:13-79
+58            android:stopWithTask="false" >
+58-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:45:13-41
+59            <intent-filter>
+59-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:47:13-49:29
+60                <action android:name="android.accessibilityservice.AccessibilityService" />
+60-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:48:17-92
+60-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:48:25-89
+61            </intent-filter>
+62
+63            <meta-data
+63-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:50:13-52:72
+64                android:name="android.accessibilityservice"
+64-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:51:17-60
+65                android:resource="@xml/accessibility_service_config" />
+65-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:52:17-69
+66
+67            <property
+67-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:53:13-55:71
+68                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+68-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:54:17-76
+69                android:value="Track scrolling behavior over time." />
+69-->C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\AndroidManifest.xml:55:17-68
+70        </service>
+71
+72        <provider
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\04733b257c51211c2a04750e498429da\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\04733b257c51211c2a04750e498429da\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+74            android:authorities="com.example.scrolltracker.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\04733b257c51211c2a04750e498429da\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\04733b257c51211c2a04750e498429da\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\04733b257c51211c2a04750e498429da\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\04733b257c51211c2a04750e498429da\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\04733b257c51211c2a04750e498429da\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Lenovo\.gradle\caches\transforms-3\191b86617dbdbb5ba948c88904c4fb85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Lenovo\.gradle\caches\transforms-3\191b86617dbdbb5ba948c88904c4fb85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Lenovo\.gradle\caches\transforms-3\191b86617dbdbb5ba948c88904c4fb85\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+84                android:value="androidx.startup" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+85        </provider>
+86
+87        <receiver
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+88            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+89            android:directBootAware="false"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+90            android:enabled="true"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+91            android:exported="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+92            android:permission="android.permission.DUMP" >
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+94                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+97                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+100                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+103                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+104            </intent-filter>
+105        </receiver>
+106    </application>
+107
+108</manifest>

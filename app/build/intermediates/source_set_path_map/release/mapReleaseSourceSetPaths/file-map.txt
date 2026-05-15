@@ -1,0 +1,41 @@
+com.example.scrolltracker.app-emoji2-1.2.0-0 C:\Users\Lenovo\.gradle\caches\transforms-3\04733b257c51211c2a04750e498429da\transformed\emoji2-1.2.0\res
+com.example.scrolltracker.app-core-ktx-1.12.0-1 C:\Users\Lenovo\.gradle\caches\transforms-3\0949ddcd79bfe9cb127c3c6847b453f0\transformed\core-ktx-1.12.0\res
+com.example.scrolltracker.app-recyclerview-1.3.2-2 C:\Users\Lenovo\.gradle\caches\transforms-3\0a292e550cc98751bfb2565a8f001414\transformed\recyclerview-1.3.2\res
+com.example.scrolltracker.app-lifecycle-livedata-core-ktx-2.6.2-3 C:\Users\Lenovo\.gradle\caches\transforms-3\0f580ebcaffce472f18b84ad5e7a2deb\transformed\lifecycle-livedata-core-ktx-2.6.2\res
+com.example.scrolltracker.app-drawerlayout-1.1.1-4 C:\Users\Lenovo\.gradle\caches\transforms-3\16616531fc5382c8a155a480dfcb3cfe\transformed\drawerlayout-1.1.1\res
+com.example.scrolltracker.app-lifecycle-process-2.6.2-5 C:\Users\Lenovo\.gradle\caches\transforms-3\191b86617dbdbb5ba948c88904c4fb85\transformed\lifecycle-process-2.6.2\res
+com.example.scrolltracker.app-transition-1.2.0-6 C:\Users\Lenovo\.gradle\caches\transforms-3\226185b89730e64db1f63dd94eb97658\transformed\transition-1.2.0\res
+com.example.scrolltracker.app-emoji2-views-helper-1.2.0-7 C:\Users\Lenovo\.gradle\caches\transforms-3\2c3be21987aa26e8e98b90a8dfcd4806\transformed\emoji2-views-helper-1.2.0\res
+com.example.scrolltracker.app-core-runtime-2.2.0-8 C:\Users\Lenovo\.gradle\caches\transforms-3\359e5573e7c260e900dc300210382380\transformed\core-runtime-2.2.0\res
+com.example.scrolltracker.app-constraintlayout-2.1.4-9 C:\Users\Lenovo\.gradle\caches\transforms-3\3b9925694526a6eeaa6d13f75f6af82e\transformed\constraintlayout-2.1.4\res
+com.example.scrolltracker.app-lifecycle-livedata-core-2.6.2-10 C:\Users\Lenovo\.gradle\caches\transforms-3\4602a99f4972ccccc81779906f7ded95\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.scrolltracker.app-material-1.10.0-11 C:\Users\Lenovo\.gradle\caches\transforms-3\4f817a37421e7348d914564603cfdab3\transformed\material-1.10.0\res
+com.example.scrolltracker.app-appcompat-resources-1.6.1-12 C:\Users\Lenovo\.gradle\caches\transforms-3\585b159a10fa37027d27de4c2ef16483\transformed\appcompat-resources-1.6.1\res
+com.example.scrolltracker.app-lifecycle-viewmodel-2.6.2-13 C:\Users\Lenovo\.gradle\caches\transforms-3\5aa4490586a051438f04ff63bc31a53e\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.scrolltracker.app-annotation-experimental-1.3.0-14 C:\Users\Lenovo\.gradle\caches\transforms-3\5ab121397a64fa57a6eb89e13a14766b\transformed\annotation-experimental-1.3.0\res
+com.example.scrolltracker.app-lifecycle-livedata-2.6.2-15 C:\Users\Lenovo\.gradle\caches\transforms-3\703788948c835aa6f9cb0bc8865a2a89\transformed\lifecycle-livedata-2.6.2\res
+com.example.scrolltracker.app-lifecycle-livedata-ktx-2.6.2-16 C:\Users\Lenovo\.gradle\caches\transforms-3\714e098c8f23d7f744ee06eb322efb70\transformed\lifecycle-livedata-ktx-2.6.2\res
+com.example.scrolltracker.app-startup-runtime-1.1.1-17 C:\Users\Lenovo\.gradle\caches\transforms-3\79fc7f51ff8abe6493cc702d25f99189\transformed\startup-runtime-1.1.1\res
+com.example.scrolltracker.app-lifecycle-viewmodel-savedstate-2.6.2-18 C:\Users\Lenovo\.gradle\caches\transforms-3\809b0b35c80387bc6b23cca66abacda2\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.scrolltracker.app-lifecycle-runtime-2.6.2-19 C:\Users\Lenovo\.gradle\caches\transforms-3\95f0b2c1f60eb1016f3548d3412e91f2\transformed\lifecycle-runtime-2.6.2\res
+com.example.scrolltracker.app-cardview-1.0.0-20 C:\Users\Lenovo\.gradle\caches\transforms-3\9786f5ba4531f857159d12ea39d3d116\transformed\cardview-1.0.0\res
+com.example.scrolltracker.app-lifecycle-viewmodel-ktx-2.6.2-21 C:\Users\Lenovo\.gradle\caches\transforms-3\afd5199c5ebf4e6fc97b3980e4aab0b8\transformed\lifecycle-viewmodel-ktx-2.6.2\res
+com.example.scrolltracker.app-fragment-1.3.6-22 C:\Users\Lenovo\.gradle\caches\transforms-3\b15137eddc6d9055381662afe00c6b40\transformed\fragment-1.3.6\res
+com.example.scrolltracker.app-appcompat-1.6.1-23 C:\Users\Lenovo\.gradle\caches\transforms-3\bc2f107a982f98d807e3e1e08ba5e6d7\transformed\appcompat-1.6.1\res
+com.example.scrolltracker.app-savedstate-ktx-1.2.1-24 C:\Users\Lenovo\.gradle\caches\transforms-3\bcacd5755b7ecc21ce9e1fd6dddb66fc\transformed\savedstate-ktx-1.2.1\res
+com.example.scrolltracker.app-customview-poolingcontainer-1.0.0-25 C:\Users\Lenovo\.gradle\caches\transforms-3\cb172191d53f05d4dee4753e00a0fd91\transformed\customview-poolingcontainer-1.0.0\res
+com.example.scrolltracker.app-core-1.12.0-26 C:\Users\Lenovo\.gradle\caches\transforms-3\ce4ea5e2a90bba2691f13aaca50c3cc4\transformed\core-1.12.0\res
+com.example.scrolltracker.app-coordinatorlayout-1.1.0-27 C:\Users\Lenovo\.gradle\caches\transforms-3\d77e0d8c8dcae7402baa1c2073fcdefc\transformed\coordinatorlayout-1.1.0\res
+com.example.scrolltracker.app-activity-ktx-1.8.0-28 C:\Users\Lenovo\.gradle\caches\transforms-3\da0f6113a8b16312555af1f0ca668e89\transformed\activity-ktx-1.8.0\res
+com.example.scrolltracker.app-viewpager2-1.1.0-beta02-29 C:\Users\Lenovo\.gradle\caches\transforms-3\ea3baae3701f360521d6c91c87ff3449\transformed\viewpager2-1.1.0-beta02\res
+com.example.scrolltracker.app-activity-1.8.0-30 C:\Users\Lenovo\.gradle\caches\transforms-3\ecf091696ec2a162e7f79538a343b90e\transformed\activity-1.8.0\res
+com.example.scrolltracker.app-savedstate-1.2.1-31 C:\Users\Lenovo\.gradle\caches\transforms-3\f98dcd9c89c09dbd69743cb5ef9897b1\transformed\savedstate-1.2.1\res
+com.example.scrolltracker.app-profileinstaller-1.3.0-32 C:\Users\Lenovo\.gradle\caches\transforms-3\fa313cdf73557cfdb245432ef99c94df\transformed\profileinstaller-1.3.0\res
+com.example.scrolltracker.app-lifecycle-runtime-ktx-2.6.2-33 C:\Users\Lenovo\.gradle\caches\transforms-3\fd348a6402a6eb845d1d3e6e6cbcc633\transformed\lifecycle-runtime-ktx-2.6.2\res
+com.example.scrolltracker.app-pngs-34 C:\Users\Lenovo\Downloads\Scrool counter\app\build\generated\res\pngs\release
+com.example.scrolltracker.app-resValues-35 C:\Users\Lenovo\Downloads\Scrool counter\app\build\generated\res\resValues\release
+com.example.scrolltracker.app-packageReleaseResources-36 C:\Users\Lenovo\Downloads\Scrool counter\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.example.scrolltracker.app-packageReleaseResources-37 C:\Users\Lenovo\Downloads\Scrool counter\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.example.scrolltracker.app-release-38 C:\Users\Lenovo\Downloads\Scrool counter\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.example.scrolltracker.app-main-39 C:\Users\Lenovo\Downloads\Scrool counter\app\src\main\res
+com.example.scrolltracker.app-release-40 C:\Users\Lenovo\Downloads\Scrool counter\app\src\release\res
